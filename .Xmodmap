@@ -1,0 +1,6 @@
+clear control
+clear mod1
+keycode 37 = Control_R
+keycode 64 = Alt_L
+add control = Control_R 
+add mod1 = Control_L
