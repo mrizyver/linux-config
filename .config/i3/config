@@ -146,7 +146,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #make screenshot
-bindsym --release $mod+Shift+s scrot -s '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
+bindsym --release $mod+Shift+s exec  "scrot --select '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'"
+bindsym --release $mod+Shift+w exec  "scrot --focused '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'"
 
 # Lock screen:
 bindsym $mod+Ctrl+l exec i3lock
