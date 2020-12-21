@@ -1,6 +1,6 @@
 #install packages via apt
 sudo apt update
-sudo apt install curl wget ranger htop zsh gnome-terminal xclip i3 -y
+sudo apt install curl wget ranger htop zsh gnome-terminal xclip i3 scrot -y
 
 #install packages via snap
 sudo apt install snapd
