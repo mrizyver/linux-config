@@ -1,6 +1,6 @@
 #install packages via apt
 sudo apt update
-sudo apt install nautilus curl wget ranger htop zsh gnome-terminal xclip i3 scrot -y
+sudo apt install apcalc nautilus curl wget ranger htop zsh gnome-terminal xclip i3 scrot -y
 
 #install packages via snap
 sudo apt install snapd
