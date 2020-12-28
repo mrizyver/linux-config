@@ -1,12 +1,10 @@
 #install packages via apt
 sudo apt update
-sudo apt install apcalc nautilus curl wget ranger htop zsh gnome-terminal xclip i3 scrot -y
+sudo apt install apcalc nautilus curl wget ranger htop zsh gnome-terminal xclip i3 scrot qemu-kvm -y
 
 #install packages via snap
 sudo apt install snapd
-sudo snap install telegram-desktop
-sudo snap install yakyak
-sudo snap install cura-slicer
+sudo snap install telegram-desktop yakyak cura-slicer chromium
 
 #install Android Studio
 sudo apt install openjdk-11-jdk
