@@ -79,3 +79,7 @@ else
   map <M-Down> ]s
   map <M-Up> [s
 endif
+
+nnoremap <C> <A>
+nnoremap <A> <C>
+
