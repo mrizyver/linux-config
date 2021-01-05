@@ -5,4 +5,4 @@ sudo rm -rf /etc/blender/
 sudo mv blender-*-linux64 /etc/blender
 rm blender-*-linux64.tar.xz
 sudo rm /usr/share/applications/blender.desktop
-sudo echo $'[Desktop Entry]\nName=Blender\nExec=/etc/blender/blender\nIcon=/etc/blender/blender.svg\    nTerminal=false\nType=Application'| sudo tee -a /usr/share/applications/blender.desktop
+sudo ln -s /etc/blender/blender /usr/bin/blender
