@@ -8,5 +8,5 @@ sudo snap install android-studio --classic
 
 #install packages via apt
 sudo apt update -y
-sudo apt install gparted apcalc nautilus curl wget ranger htop zsh xclip scrot qemu-kvm -y
+sudo apt install gparted apcalc nautilus curl wget ranger htop zsh xclip scrot qemu-kvm network-manager -y
 sudo apt install i3 lightdm -y
