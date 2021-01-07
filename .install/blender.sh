@@ -4,5 +4,5 @@ sudo tar -xf blender-*-linux64.tar.xz
 sudo rm -rf /etc/blender/
 sudo mv blender-*-linux64 /etc/blender
 sudo rm blender-*-linux64.tar.xz
-sudo rm /usr/share/applications/blender.desktop
+sudo rm -f /usr/bin/blender
 sudo ln -s /etc/blender/blender /usr/bin/blender
