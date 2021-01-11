@@ -4,7 +4,7 @@ sudo apt install apcalc nautilus curl wget ranger htop zsh gnome-terminal xclip 
 
 #install packages via snap
 sudo apt install snapd
-sudo snap install telegram-desktop figma-linux yakyak cura-slicer chromium
+sudo snap install postman telegram-desktop figma-linux yakyak cura-slicer chromium
 
 #install Android Studio
 sudo apt install openjdk-11-jdk
