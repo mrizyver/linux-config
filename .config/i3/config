@@ -1,16 +1,13 @@
 # Super/Windows key is $mod
 set $mod Mod4
+set $alt Control
+set $ctrl Mod1
 
 font pango:monospace 8
 
 # Shortcuts to open common apps:
 bindsym $mod+Return exec gnome-terminal
 
-# Floating windows by default:
-# Shortcuts for scripts:
-bindsym $mod+F7 exec xrandr --auto
-#bindsym $mod+Ctrl+w exec ~/.config/i3/scripts/set-random-desktop-background
-#bindsym Ctrl+Mod1+s exec ~/.config/i3/scripts/suspend-and-lock
 
 # Kill focused window 
 bindsym $mod+q kill
@@ -150,7 +147,7 @@ bindsym --release $mod+Shift+s exec  "scrot --select '/tmp/%F_%T_$wx$h.png' -e '
 bindsym --release $mod+Shift+w exec  "scrot --focused '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'"
 
 # Lock screen:
-bindsym $mod+Ctrl+l exec i3lock
+bindsym $ctrl+Shift+l exec i3lock
 
 # Display startup script:
 exec --no-startup-id  bash setxkbmap -option caps:swapescape 
@@ -162,8 +159,9 @@ exec --no-startup-id  bash ~/.config/i3/scripts/synclient_config.sh
 bar {
         status_command i3status
 }
+
 #dmenu:
-bindsym Mod1+space exec dmenu_run 
+bindsym $alt+space exec dmenu_run 
 
 # Startup programs:
 exec --no-startupid i3-msg 'workspace $w1' 
