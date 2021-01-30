@@ -1,6 +1,6 @@
 #install packages via snap
 sudo apt install snapd -y
-sudo snap install telegram-desktop figma-linux yakyak cura-slicer chromium
+sudo snap install telegram-desktop figma-linux yakyak cura-slicer chromium arduino
 sudo snap install skype --classic
 
 #install Android Studio
@@ -10,4 +10,4 @@ sudo snap install android-studio --classic
 #install packages via apt
 sudo apt update -y
 sudo apt install gparted apcalc nautilus curl wget ranger htop zsh xclip scrot qemu-kvm network-manager gnome-terminal thunderbird -y
-sudo apt install i3 lightdm -y
+sudo apt install i3 lightdm x11-xserver-utils -y
