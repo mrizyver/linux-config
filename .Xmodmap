@@ -33,4 +33,3 @@ add control = Control_L Control_R
 ! Caps_Lock becomes an additional BackSpace
 !------------------------------------------
 remove lock = Caps_Lock
-keysym Caps_Lock = BackSpace
