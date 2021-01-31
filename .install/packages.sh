@@ -18,4 +18,6 @@ sudo apt install -y \
     wget ranger htop zsh xclip \
     scrot qemu-kvm network-manager \
     gnome-terminal thunderbird \
-    i3 lightdm x11-xserver-utils
+    i3 lightdm x11-xserver-utils \
+    ffmpegthumbnailer usb-creator-gtk \
+    j4-dmenu-desktop

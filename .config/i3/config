@@ -161,7 +161,7 @@ bar {
 }
 
 #dmenu:
-bindsym $alt+space exec dmenu_run 
+bindsym $alt+space exec j4-dmenu-desktop
 
 # Startup programs:
 exec --no-startupid i3-msg 'workspace $w1' 
