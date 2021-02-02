@@ -50,7 +50,9 @@ set tags+=~/.vim/tags/qt4
 nnoremap <C> <A>
 nnoremap <A> <C>
 
-
+nnoremap J gT
+nnoremap K gt
+nnoremap <C-j> J
 
 inoremap " ""<left>
 inoremap ' ''<left>

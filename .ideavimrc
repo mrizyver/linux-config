@@ -3,3 +3,7 @@ set ignorecase
 set smartcase
 
 set ideajoin
+
+nnoremap J gT
+nnoremap K gt
+nnoremap <C-j> J

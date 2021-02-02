@@ -20,7 +20,7 @@ sudo apt install -y \
     gnome-terminal thunderbird \
     i3 vim x11-xserver-utils \
     ffmpegthumbnailer usb-creator-gtk \
-    j4-dmenu-desktop
+    j4-dmenu-desktop qutebrowser
 
 #install vim vundle
 if [ ! -f "~/.vim/bundle/Vundle.vim" ]
