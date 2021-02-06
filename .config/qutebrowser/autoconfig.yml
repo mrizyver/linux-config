@@ -8,3 +8,5 @@ global:
     normal:
       J: tab-prev
       K: tab-next
+  url.default_page: https://www.google.com
+  url.start_pages: https://www.google.com

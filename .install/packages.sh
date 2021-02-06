@@ -20,7 +20,12 @@ sudo apt install -y \
     gnome-terminal thunderbird \
     i3 vim x11-xserver-utils \
     ffmpegthumbnailer usb-creator-gtk \
-    j4-dmenu-desktop qutebrowser vlc
+    j4-dmenu-desktop qutebrowser vlc \
+    linuxbrew-wrapper
+
+#install packages via brew
+brew update
+brew install arduino-cli
 
 #install vim vundle
 if [ ! -f "~/.vim/bundle/Vundle.vim" ]
