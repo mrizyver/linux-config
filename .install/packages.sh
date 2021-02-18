@@ -1,10 +1,9 @@
 #install packages via snap
 sudo apt install -y snapd
 sudo snap install \
-    postman telegram-desktop \
+    postman arduino \
     figma-linux yakyak \
-    cura-slicer chromium  \
-    arduino
+    cura-slicer chromium 
 sudo snap install skype slack --classic
 
 #install Android Studio
@@ -12,6 +11,7 @@ sudo apt install openjdk-11-jdk -y
 sudo snap install android-studio --classic
 
 #install packages via apt
+sudo add-apt-repository ppa:atareao/telegram -y
 sudo apt update -y
 sudo apt install -y \
     gparted apcalc nautilus curl \
@@ -21,7 +21,7 @@ sudo apt install -y \
     i3 vim x11-xserver-utils \
     ffmpegthumbnailer usb-creator-gtk \
     j4-dmenu-desktop qutebrowser vlc \
-    linuxbrew-wrapper
+    linuxbrew-wrapper telegram
 
 #install packages via brew
 brew update
