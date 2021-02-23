@@ -3,11 +3,10 @@ set $mod Mod4
 set $alt Control
 set $ctrl Mod1
 
-font pango:monospace 8
+font pango:DejaVu Sans Mono 8
 
 # Shortcuts to open common apps:
-bindsym $mod+Return exec gnome-terminal
-
+bindsym $mod+Return exec i3-sensible-terminal 
 
 # Kill focused window 
 bindsym $mod+q kill
@@ -44,7 +43,6 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
-
 # Split in horizontal orientation
 bindsym $mod+b split h
 
@@ -157,11 +155,29 @@ exec --no-startup-id  bash ~/.config/i3/scripts/keyboard_config
 exec --no-startup-id  bash ~/.config/i3/scripts/synclient_config.sh
 
 bar {
-        status_command i3status
+    colors {
+    background #2f343f
+    statusline #2f343f
+    separator #4b5262
+
+    # colour of border, background, and text
+    focused_workspace   #2f343f #bf616a #d8dee8
+    active_workspace    #2f343f #2f343f #d8dee8
+    inactive_workspace  #2f343f #2f343f #d8dee8
+    urgent_workspace    #2f343f #ebcb8b #2f343f
+    }
+    status_command i3status
 }
+
+client.focused          #bf616a #2f343f #d8dee8 #bf616a #d8dee8
+client.focused_inactive #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.unfocused        #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.urgent           #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.placeholder      #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.background       #2f343f
 
 #dmenu:
 bindsym $alt+space exec j4-dmenu-desktop
 
 # Startup programs:
-exec --no-startupid i3-msg 'workspace $w1' 
+exec --n-startupid i3-msg 'workspace $w1' 

@@ -9,4 +9,6 @@ global:
       J: tab-prev
       K: tab-next
   url.default_page: https://www.google.com
+  url.searchengines:
+    DEFAULT: https://google.com/search?q={}
   url.start_pages: https://www.google.com
