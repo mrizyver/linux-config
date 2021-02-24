@@ -4,7 +4,8 @@ sudo snap install \
     postman arduino \
     figma-linux yakyak \
     cura-slicer chromium 
-sudo snap install skype slack --classic
+sudo snap install skype --classic
+sudo snap install slack --classic
 
 #install Android Studio
 sudo apt install openjdk-11-jdk -y
