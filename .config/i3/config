@@ -19,6 +19,8 @@ bindsym XF86AudioMute exec amixer -q -D pulse set Master toggle & exec ~/.config
 # Change brightness
 bindsym XF86MonBrightnessDown exec light -U 1 & exec ~/.config/i3/scripts/brightness-notify
 bindsym XF86MonBrightnessUp exec light -A 1 & exec ~/.config/i3/scripts/brightness-notify
+bindsym Shift+XF86MonBrightnessDown exec light -U 10 & exec ~/.config/i3/scripts/brightness-notify
+bindsym Shift+XF86MonBrightnessUp exec light -A 10 & exec ~/.config/i3/scripts/brightness-notify
 
 # Change focus
 bindsym $mod+h focus left

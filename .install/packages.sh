@@ -6,6 +6,7 @@ sudo snap install \
     cura-slicer chromium 
 sudo snap install skype --classic
 sudo snap install slack --classic
+sudo snap install clion --classic
 
 #install Android Studio
 sudo apt install openjdk-11-jdk -y

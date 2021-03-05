@@ -15,9 +15,6 @@ clear mod4
 keycode  64 = Control_L
 keycode  37 = Alt_L Meta_L
 
-! Menu becomes Alt_R Meta_R (AltGr)
-keycode 135 = Alt_R Meta_R
-
 ! Define Control_R and Alt_R similar to Control_L and Alt_L
 keycode 108 = Control_L
 keycode 105 = Alt_L Meta_L
@@ -33,3 +30,6 @@ add control = Control_L Control_R
 ! Caps_Lock becomes an additional BackSpace
 !------------------------------------------
 remove lock = Caps_Lock
+
+keycode 87 = Down
+keycode 88 = Up
