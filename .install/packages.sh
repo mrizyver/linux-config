@@ -3,7 +3,7 @@ sudo apt install -y snapd
 sudo snap install \
     postman arduino \
     figma-linux yakyak \
-    cura-slicer chromium 
+    cura-slicer 
 sudo snap install skype --classic
 sudo snap install slack --classic
 sudo snap install clion --classic
