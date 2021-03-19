@@ -23,7 +23,9 @@ sudo apt install -y \
     i3 vim x11-xserver-utils \
     ffmpegthumbnailer usb-creator-gtk \
     j4-dmenu-desktop qutebrowser vlc \
-    linuxbrew-wrapper telegram
+    xdotool lm-sensors \
+    linuxbrew-wrapper telegram \
+    zoom-client adb
 
 #install packages via brew
 brew update
