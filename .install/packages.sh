@@ -25,7 +25,8 @@ sudo apt install -y \
     j4-dmenu-desktop qutebrowser vlc \
     xdotool lm-sensors \
     linuxbrew-wrapper telegram \
-    zoom-client adb redshift
+    zoom-client adb redshift \
+    freecad
 
 #install packages via brew
 brew update
