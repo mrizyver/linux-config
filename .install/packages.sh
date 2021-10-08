@@ -14,6 +14,7 @@ sudo snap install android-studio --classic
 
 #install packages via apt
 sudo add-apt-repository ppa:atareao/telegram -y
+sudo add-apt-repository ppa:freecad-maintainers/freecad-stable -y
 sudo apt update -y
 sudo apt install -y \
     gparted apcalc nautilus curl \
@@ -25,7 +26,8 @@ sudo apt install -y \
     j4-dmenu-desktop qutebrowser vlc \
     xdotool lm-sensors \
     linuxbrew-wrapper telegram \
-    zoom-client adb redshift
+    zoom-client adb redshift \
+    freecad
 
 #install packages via brew
 brew update
