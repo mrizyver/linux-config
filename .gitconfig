@@ -1,0 +1,8 @@
+[user]
+	name = Ruslan Kalinovich
+	email = r.kalinovych@spd-ukraine.com
+[core]
+	autocrlf = input
+    editor = vim
+[merge]
+	ff = no
