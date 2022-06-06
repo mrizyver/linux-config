@@ -1,8 +1,7 @@
-set clipboard+=unnamed 
+" we have to use 'gvim' instead of usual 'vim' to make copy-to-clipboard working
+set clipboard=unnamedplus
 set ignorecase
 set smartcase
-
-
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -49,8 +48,13 @@ nnoremap J gT
 nnoremap K gt
 nnoremap <C-j> J
 
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {<CR>}<ESC>O
+nnoremap d "_d
+vnoremap d "_d
+
+nnoremap D "_D
+vnoremap D "_D
+
+vnoremap p "_dP
+
+nnoremap xx dd
+nnoremap X D

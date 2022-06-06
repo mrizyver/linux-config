@@ -7,3 +7,14 @@ set ideajoin
 nnoremap J gT
 nnoremap K gt
 nnoremap <C-j> J
+
+nnoremap d "_d
+vnoremap d "_d
+
+nnoremap D "_D
+vnoremap D "_D
+
+vnoremap p "_dP
+
+nnoremap xx dd
+nnoremap X D
